@@ -1,6 +1,6 @@
 # Telco Customer Churn #
 
-## 1.Project Overview ##
+## 1. Project Overview ##
 
 The purpose of the Telco Customer Churn dataset is to analyze and predict customer churn for a telecommunications company. 
 Customer churn, also known as customer attrition, refers to the phenomenon where customers discontinue their services or subscriptions with a company.
@@ -8,7 +8,7 @@ Understanding and predicting customer churn is critical for businesses, includin
 customer satisfaction, and market competitiveness. 
 By analyzing customer behavior and identifying potential churners, companies can take proactive measures to retain customers, improve service quality, and enhance customer loyalty.
 
-## 1.Background ##
+## 1. Background ##
 
 In this project I will predict customer churn. In this project the following steps were excluded:
 
