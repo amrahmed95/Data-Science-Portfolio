@@ -35,7 +35,7 @@ Data Exploration section aims to provide insights into the dataset's structure, 
 
 ## 4. Model Building and Training 
 
-* Train the ANN model on the training data using appropriate optimization algorithm (Adam Optimizer algorithm) and loss function (Binary Cross Entropy).
+* Train the ANN model on the training data using appropriate optimization algorithm (Adam Optimizer) and loss function (Binary Cross Entropy).
 * Use Keras Early stopping to stop wasting time.
  (early stopping is a form of regularization used to avoid overfitting when training a learner with an iterative method, such as gradient descent. 
   Such methods update the learner so as to make it better fit the training data with each iteration) -WikiPedia
