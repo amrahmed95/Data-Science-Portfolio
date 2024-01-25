@@ -36,7 +36,7 @@ The project employs machine learning regression algorithms to develop predictive
 
 ## Future Improvements:
 
-- Implementation of advanced machine learning algorithms and neural networks with larger records to enhance model performance.
+- Implementation of advanced machine learning algorithms such as neural networks with larger records to enhance model performance.
 - Integration of additional data sources such as economic indicators, transportation access, and environmental factors to enhance prediction accuracy and robustness.
 - Implementation of advanced modeling techniques like time-series analysis or geospatial modeling to capture temporal and spatial dependencies in property prices.
 - Development of a user-friendly interface or application for seamless interaction with the real estate price prediction system.
