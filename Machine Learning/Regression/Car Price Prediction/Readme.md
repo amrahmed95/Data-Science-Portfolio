@@ -24,13 +24,12 @@ The project employs machine learning techniques to train and evaluate predictive
 
 * Model Training and Evaluation: Several regression models are trained using the preprocessed data, and their performance is evaluated using appropriate metrics such as mean absolute error (MAE), mean squared error (MSE), and R-squared.
 
-* Future Improvements:
+# Future Improvements:
 Future enhancements to the project may include:
 
-Integration of additional data sources to enrich the feature set and improve prediction accuracy.
-Implementation of advanced modeling techniques such as neural networks or ensemble methods for more robust predictions.
-Model Deployment and Integration: The project can be deployed as a web application or as an API allowing users to input car specifications and receive accurate price predictions
-Development of a user-friendly interface or application for seamless interaction with the predictive model.
+* Integration of additional data sources to enrich the feature set and improve prediction accuracy.
+* Implementation of advanced modeling techniques such as neural networks or ensemble methods for more robust predictions.
+* Model Deployment and Integration: The project can be deployed as a web application or as an API allowing users to input car specifications and receive accurate price predictions
 
 # Dependencies:
 
