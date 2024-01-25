@@ -39,7 +39,13 @@ Data Exploration section aims to provide insights into the dataset's structure, 
 * Use Keras Early stopping to stop wasting time.
  (early stopping is a form of regularization used to avoid overfitting when training a learner with an iterative method, such as gradient descent. 
   Such methods update the learner so as to make it better fit the training data with each iteration) -WikiPedia
-* Evaluate the trained model on the test set to assess its performance using metrics such as accuracy, precision, recall, and F1-score.
+* Evaluate the trained model on the test set to assess its performance using accuracy (~80%)
 
-* Label Encoding
-* Standard Scaling
+## 5. Dependencies
+
+* Python 3.12.0
+* pandas: Data manipulation and preprocessing.
+* scikit-learn: Machine learning algorithms and model evaluation.
+* tensorflow.keras: Deep learning framework for building neural network models.
+* matplotlib and seaborn: Data visualization.
+
