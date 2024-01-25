@@ -10,7 +10,7 @@ Our primary aim is to develop a predictive model that empowers insurance compani
 
 ## Dataset:
 
-We utilize a comprehensive dataset of 1 Million Records containing information on insurance premiums charged to individuals alongside their demographic and health-related attributes. This dataset encompasses key data points such as age, gender, BMI, smoking status, region, and corresponding insurance charges.
+We utilize a comprehensive dataset of **1 Million Records** containing information on insurance premiums charged to individuals alongside their demographic and health-related attributes. This dataset encompasses key data points such as age, gender, BMI, smoking status, region, and corresponding insurance charges.
 
 ## Exploratory Data Analysis (EDA):
 
