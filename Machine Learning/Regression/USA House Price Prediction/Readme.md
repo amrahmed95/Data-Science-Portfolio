@@ -9,7 +9,7 @@ Our primary objective is to create a predictive model capable of estimating prop
 
 ## Dataset:
 
-The project leverages a comprehensive dataset comprising **1.4 Million** historical sales records, property details, and neighborhood information from diverse regions. Key features include the status of the property, number of bedrooms and bathrooms, lot size, location details (city, state, zip code), house size, previous sold date, and sale price.
+The project leverages a comprehensive dataset comprising **1.4 Million historical sales records**, property details, and neighborhood information from diverse regions. Key features include the status of the property, number of bedrooms and bathrooms, lot size, location details (city, state, zip code), house size, previous sold date, and sale price.
 
 ## Exploratory Data Analysis (EDA):
 
