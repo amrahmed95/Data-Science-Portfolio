@@ -9,7 +9,7 @@ Our primary objective is to create a predictive model capable of estimating prop
 
 ## Dataset:
 
-The project leverages a comprehensive dataset comprising **1.4 Million** historical sales records, property details, and neighborhood information from diverse regions. Key features include the status of the property, number of bedrooms and bathrooms, lot size, location details (city, state, zip code), house size, previous sold date, and sale price.
+The project leverages a comprehensive dataset comprising **1.4 Million historical sales records**, property details, and neighborhood information from diverse regions. Key features include the status of the property, number of bedrooms and bathrooms, lot size, location details (city, state, zip code), house size, previous sold date, and sale price.
 
 ## Exploratory Data Analysis (EDA):
 
@@ -36,7 +36,7 @@ The project employs machine learning regression algorithms to develop predictive
 
 ## Future Improvements:
 
-- Implementation of advanced machine learning algorithms and neural networks with larger records to enhance model performance.
+- Implementation of advanced machine learning algorithms such as neural networks with larger records to enhance model performance.
 - Integration of additional data sources such as economic indicators, transportation access, and environmental factors to enhance prediction accuracy and robustness.
 - Implementation of advanced modeling techniques like time-series analysis or geospatial modeling to capture temporal and spatial dependencies in property prices.
 - Development of a user-friendly interface or application for seamless interaction with the real estate price prediction system.
@@ -47,3 +47,5 @@ The project employs machine learning regression algorithms to develop predictive
 * pandas: Data manipulation and preprocessing.
 * scikit-learn: Machine learning algorithms and model evaluation.
 * matplotlib and seaborn: Data visualization.
+
+### **This project overview offers stakeholders a comprehensive understanding of the project's objectives, methodologies, and future directions, fostering collaboration and transparency within the real estate communities**
