@@ -1,6 +1,0 @@
-Data Science Salary;
----------------------------
-based on:
-	- Job title
-	- info about company
-	- Geography
