@@ -18,7 +18,7 @@ The project utilizes a real online retail transaction dataset of a **UK-based on
 
 * Customer Segmentation: Clustering techniques are applied to group customers based on their purchasing behavior, frequency, and monetary value of transactions.
 
-*RFM analysis: The RFM analysis involves assigning a score to each dimension (Recency, Frequency, Monetary Value) for each customer, then segmenting customers into groups based on these scores. This segmentation helps identify valuable customer segments, understand customer behavior,their shopping cycle and tailor marketing strategies accordingly. 
+* RFM analysis: The RFM analysis involves assigning a score to each dimension (Recency, Frequency, Monetary Value) for each customer, then segmenting customers into groups based on these scores. This segmentation helps identify valuable customer segments, understand customer behavior, their shopping cycle and tailor marketing strategies accordingly. 
 
 * Market Basket Analysis: Association rules and frequent itemset mining techniques are used to uncover patterns in customer purchasing behavior and identify common item combinations.
 
