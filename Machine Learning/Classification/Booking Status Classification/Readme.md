@@ -33,7 +33,7 @@ The project employs machine learning classification algorithms to predict bookin
 
 * Model Training and Evaluation: Multiple classification models are trained using preprocessed data, and their performance is evaluated using metrics such as accuracy, precision, recall, F1-score.
 
-* Hyperparameter Tuning: Hyperparameters of the selected models are fine-tuned using techniques like grid search or randomized search to optimize model performance and generalization.
+* Hyperparameter Tuning: Hyperparameters of the selected models are fine-tuned using techniques like grid search to optimize model performance and generalization.
 
 ## Future Improvements:
 
