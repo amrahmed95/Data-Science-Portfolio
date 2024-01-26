@@ -10,7 +10,7 @@ The primary objective is twofold: first, to perform clustering analysis on trans
 
 ## Dataset:
 
-The project utilizes a real online retail transaction dataset of a UK-based online retail store containing over 1 million records of information on customer purchases, product descriptions, quantities ordered, transaction dates, and country of purchase. The dataset spans two years, from 01/12/2009 to 09/12/2011, and includes transactions for a variety of unique all-occasion gift-ware items.
+The project utilizes a real online retail transaction dataset of a **UK-based online retail store containing over 1 million records of information** on customer purchases, product descriptions, quantities ordered, transaction dates, and country of purchase. The dataset spans two years, from 01/12/2009 to 09/12/2011, and includes transactions for a variety of unique all-occasion gift-ware items.
 
 ## Exploratory Data Analysis (EDA):
 
