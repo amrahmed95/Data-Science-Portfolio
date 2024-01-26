@@ -12,4 +12,4 @@ The primary objective is to develop a forecasting model using FB Prophet to pred
 - Operational Efficiency: Optimize inventory management, pricing strategies, and supply chain operations based on forecasted avocado prices and market conditions.
 
 ## Conclusion:
-## **This project overview provides stakeholders with a concise understanding of the project's objectives, dataset, key components, benefits, future enhancements, contributors, and license information. The Forecasting Avocado Prices with FB Prophet project aims to provide accurate and reliable forecasts of avocado prices, empowering stakeholders to make informed decisions and strategies in the avocado market.**
+#### **This project overview provides stakeholders with a concise understanding of the project's objectives, dataset, key components, benefits, future enhancements, contributors, and license information. The Forecasting Avocado Prices with FB Prophet project aims to provide accurate and reliable forecasts of avocado prices, empowering stakeholders to make informed decisions and strategies in the avocado market.**
