@@ -1,4 +1,4 @@
-## Recommendation System - Udacity Courses **
+## Recommendation System - Udemy Courses **
 
 ## Project Overview: Recommendation System for Udemy Courses Dataset
 
