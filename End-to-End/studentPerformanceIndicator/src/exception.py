@@ -1,18 +1,23 @@
 import sys
-import logging
 import os
-from datetime import datetime
+
+# Add the parent directory of src to the Python module search path
+parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.insert(0, parent_dir)
+
+# Now you can import the logger module
+from src.logger import logging
+
 
 def get_error_message(error, error_details:sys):
     _,_,exc_tb = error_details.exc_info()
       
     error_message = "Error occured in python script name [{0}] line number [{1}] error message [{2}]".format(
-        file_name = exc_tb.tb_frame.f_code.co_filename,
-        line_number = exc_tb.tb_lineno,
-        error_message = str(error)      
+        exc_tb.tb_frame.f_code.co_filename, # file_name
+        exc_tb.tb_lineno,                   # line_number
+        str(error)          # Error message
     )
          
-
     # Configure logging to log the error message to a file
     logging.basicConfig(
         filename='error.log',  # Log file name
@@ -22,11 +27,8 @@ def get_error_message(error, error_details:sys):
     
     # Log the error message
     logging.error(error_message)
-       
+         
     return error_message
- 
- 
- 
  
 class CustomException(Exception):
     def __init__(self, error_message, error_details:sys):
@@ -38,10 +40,10 @@ class CustomException(Exception):
     
     
     
-# if __name__ == "__main__":    
-#     try:
-#         a = 1/0
-#     except Exception as e:
-#         logging.info("Divide by zero")
-#         raise CustomException(e, sys)
+if __name__ == "__main__":    
+    try:
+        a = 1/0
+    except Exception as e:
+        logging.info("Divide by zero")
+        raise CustomException(e, sys)
         
