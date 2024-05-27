@@ -10,6 +10,7 @@ from src.exception import CustomException
 from src.logger import logging
 
 from src.components.data_transformation import DataTransformation, DataTransformationConfig
+from src.components.model_trainer import ModelTrainer, ModelTrainerConfig
 
 # Input files
 @dataclass
@@ -26,7 +27,6 @@ class DataIngestionConfig:
 # ---------------------------
 # This class is responsible for reading data from a source, splitting it into
 # train and test sets, and exporting the corresponding paths.
-
 class DataIngestion():    
     
     def __init__(self):
@@ -43,7 +43,7 @@ class DataIngestion():
         try:
             # Reading the Data
             logging.info("Reading the dataset from the source")
-            df = pd.read_csv('notebook\data\study.csv') 
+            df = pd.read_csv('notebook\data\study.csv')  # Replace with the actual source path
             
             # Export the Data to artifacts dir
             os.makedirs(name= os.path.dirname(self.Data_ingestion_config.train_data_path), exist_ok=True)
@@ -74,12 +74,19 @@ if __name__ == "__main__":
     data_ingestion = DataIngestion()
     
     # Initiate the data ingestion process
-    train_path, test_path = data_ingestion.initiate_data_ingestion()
-    print(f'Training Data path: {train_path}')
-    print(f'Test Data path: {test_path}')
+    train_data, test_data = data_ingestion.initiate_data_ingestion()
+    print(f'Training Data path: {train_data}')
+    print(f'Test Data path: {test_data}')
     
     # Instantiate the DataTransformation class
     data_transformation = DataTransformation()
     
     # Initiate the data transformation process
-    data_transformation.initiate_data_transformation(train_path, test_path)
+    train_arr, test_arr, _ = data_transformation.initiate_data_transformation(train_data, test_data)
+    
+    # Instantiate the ModelTrainer class
+    model_trainer = ModelTrainer()
+    
+    # Initiate the model training process
+    print(model_trainer.Initiate_ModelTrainer(train_arr, test_arr))
+
