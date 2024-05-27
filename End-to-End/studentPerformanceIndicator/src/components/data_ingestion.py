@@ -9,9 +9,14 @@ from dataclasses import dataclass
 from src.exception import CustomException
 from src.logger import logging
 
+from src.components.data_transformation import DataTransformation, DataTransformationConfig
+
 # Input files
 @dataclass
 class DataIngestionConfig:
+    """
+    Data class for storing config parameters
+    """
     train_data_path:str = os.path.join('artifacts', 'train.csv')
     test_data_path:str = os.path.join('artifacts', 'test.csv')
     raw_data_path:str = os.path.join('artifacts', 'data.csv')
@@ -19,28 +24,33 @@ class DataIngestionConfig:
 
 # Data Ingestion Class
 # ---------------------------
-# Vars => train_data_path, test_data_path, raw_data_path
-# Function => Read Data from Data src, Split into train and test , Export Data to the corresponding Vars
-
+# This class is responsible for reading data from a source, splitting it into
+# train and test sets, and exporting the corresponding paths.
 
 class DataIngestion():    
     
     def __init__(self):
+        """
+        Initializes the DataIngestion class
+        """
         self.Data_ingestion_config = DataIngestionConfig()
                 
     def initiate_data_ingestion(self):
+        """
+        Reads data from a source, splits it into train and test sets, and exports the corresponding paths.
+        """
         logging.info("Initiating Data Ingestion Config method")
         try:
             # Reading the Data
+            logging.info("Reading the dataset from the source")
             df = pd.read_csv('notebook\data\study.csv') 
-            logging.info("Read the dataset as data frame")
             
             # Export the Data to artifacts dir
             os.makedirs(name= os.path.dirname(self.Data_ingestion_config.train_data_path), exist_ok=True)
             df.to_csv(self.Data_ingestion_config.raw_data_path, index=0, header=True)
             
             # Splitting the Data
-            logging.info("Initiate the splitting into train test set")
+            logging.info("Splitting the dataset into train and test sets")
             train_set, test_set = train_test_split(df, test_size=0.2, random_state=0)  
             
             # Exporting the corresponding paths            
@@ -60,7 +70,16 @@ class DataIngestion():
         
         
 if __name__ == "__main__":
+    # Instantiate the DataIngestion class
     data_ingestion = DataIngestion()
+    
+    # Initiate the data ingestion process
     train_path, test_path = data_ingestion.initiate_data_ingestion()
     print(f'Training Data path: {train_path}')
     print(f'Test Data path: {test_path}')
+    
+    # Instantiate the DataTransformation class
+    data_transformation = DataTransformation()
+    
+    # Initiate the data transformation process
+    data_transformation.initiate_data_transformation(train_path, test_path)
