@@ -44,4 +44,7 @@
 * __[COVID-19 Analysis](https://github.com/amrahmed95/Data-Science-Portfolio/tree/master/Data%20Visualization/Covid-19%20Project%20-%20EDA%20and%20Visualization)__: The project aims to provide valuable insights into the COVID-19 pandemic, including trends in infection rates, mortality rates, testing rates, vaccination rates, and other relevant metrics. By conducting exploratory data analysis and visualization, the project seeks to enhance understanding of the pandemic's dynamics, inform public health policies and interventions, and support data-driven decision-making in response to COVID-19.
 
 
+## Data Analysis:
+
+* __[Music Store Data Analysis](https://github.com/amrahmed95/Data-Science-Portfolio/tree/master/Data%20Analysis/Music%20Store%20Analysis)__: This project focuses on analyzing a fictional music store's dataset to extract key insights about customer behavior, sales trends, track popularity. Using SQL queries, the project addresses various questions like which customers have the highest total spending, which cities generate the most sales, which tracks and genres are the most popular, and how employee performance correlates with sales volume. The insights aim to help improve business strategies, enhance marketing efforts, and optimize customer engagement in the music industry.
 
