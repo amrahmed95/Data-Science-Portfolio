@@ -48,3 +48,4 @@
 
 * __[Music Store Data Analysis](https://github.com/amrahmed95/Data-Science-Portfolio/tree/master/Data%20Analysis/Music%20Store%20Analysis)__: This project focuses on analyzing a fictional music store's dataset to extract key insights about customer behavior, sales trends, track popularity. Using SQL queries, the project addresses various questions like which customers have the highest total spending, which cities generate the most sales, which tracks and genres are the most popular, and how employee performance correlates with sales volume. The insights aim to help improve business strategies, enhance marketing efforts, and optimize customer engagement in the music industry.
 
+

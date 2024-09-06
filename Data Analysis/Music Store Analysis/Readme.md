@@ -96,6 +96,27 @@ This project includes SQL queries to answer the above questions. Some key querie
 - **Track revenue**: `Identify the tracks generating the highest revenue.`
 - **Rock music fans**: `Find all customers who listen to rock music and invite them to a special event.`
 - **Playlist length analysis**: `Calculate the average length of playlists by track duration.`
+
+
+### Featured SQL Query:
+
+One of the standout queries in this project is designed to uncover the customers' favorite genres and their total spending. This query highlights the SQL proficiency necessary to analyze consumer behavior and provide actionable business insights:
+
+```sql
+SELECT 
+    c.first_name || ' ' || c.last_name AS customer_name,
+    g.name AS favorite_genre,
+    SUM(i.total) AS total_spent
+FROM customer c
+JOIN invoice i ON c.customer_id = i.customer_id
+JOIN invoice_line il ON i.invoice_id = il.invoice_id
+JOIN track t ON il.track_id = t.track_id
+JOIN genre g ON t.genre_id = g.genre_id
+GROUP BY c.customer_id, g.genre_id
+ORDER BY total_spent DESC
+LIMIT 10;
+
+- **Purpose**: This query reveals the top 10 customers, their favorite genres, and how much they have spent, demonstrating your ability to extract valuable customer insights, crucial for personalized marketing and boosting sales.
   
 You can find the full list of queries in the project files.
 
