@@ -115,6 +115,7 @@ JOIN genre g ON t.genre_id = g.genre_id
 GROUP BY c.customer_id, g.genre_id
 ORDER BY total_spent DESC
 LIMIT 10;
+```
 
 - **Purpose**: This query reveals the top 10 customers, their favorite genres, and how much they have spent, demonstrating your ability to extract valuable customer insights, crucial for personalized marketing and boosting sales.
   
