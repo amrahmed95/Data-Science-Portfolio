@@ -1,6 +1,6 @@
 -- 1. Who is the senior most employee based on job title?
 SELECT first_name, last_name, title
-FROM public.employee
+FROM employee
 ORDER BY title DESC
 LIMIT 1;
 
@@ -442,5 +442,4 @@ ORDER BY track_count DESC;
 
 
 ----------------------------------------------------------------------------------------------------------
-
 
