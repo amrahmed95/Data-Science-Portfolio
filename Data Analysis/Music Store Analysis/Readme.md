@@ -1,6 +1,6 @@
 # Music Store Data Analysis Project
 
-This project analyzes a dataset from a fictional music store to uncover key business insights related to tracks, sales, customer behavior, employee performance, and more. The dataset includes information about tracks, albums, artists, customers, invoices, employees, and playlists.
+This project analyzes a dataset from a fictional music store to uncover key business insights related to tracks, sales, customer behavior, Genres and Playlist, and more. The dataset includes information about tracks, albums, artists, customers, invoices, employees, and playlists.
 
 ## Table of Contents
 - [Dataset Description](#dataset-description)
@@ -47,7 +47,7 @@ The dataset contains the following tables:
 
 ## Project Overview
 
-This project focuses on answering key business questions using SQL queries. By analyzing sales, customer behavior, employee performance, and playlist data, we aim to provide insights that could be used for business decisions such as marketing strategies, employee performance reviews, and sales optimization.
+This project focuses on answering key business questions using SQL queries. By analyzing sales, customer behavior, and playlist data, we aim to provide insights that could be used for business decisions such as marketing strategies, employee performance reviews, and sales optimization.
 
 ## Data Analysis Questions
 
@@ -124,7 +124,7 @@ To run this project, follow these steps:
 
 1. Import the dataset into a PostgreSQL database using the scripts provided.
 2. Run the SQL queries to answer the business questions posed in the project.
-3. Analyze the results to generate insights related to sales, customer behavior, and employee performance.
+3. Analyze the results to generate insights related to sales, customer behavior, and genres.
 
 ## License
 
