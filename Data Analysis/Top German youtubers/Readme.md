@@ -156,6 +156,7 @@ RETURN
 
 For validating our data and comparing results with the Excel calculations, the following SQL Common Table Expression (CTE) is used for validating data and comparing results with the Excel calculations. Here’s a detailed breakdown of what this CTE does and the insights you can extract from it:
 
+![Excel Analysis](assets/images/Excel%20Analysis.JPG)
 ![Data Validation](assets/images/Validation.JPG)
 
 ### Metrics Calculated
@@ -184,27 +185,33 @@ Here are the results for the German YouTube channels analyzed:
 | Ice Cream Rolls      | 12,300,000   | 2,556        | 1.69                    | 0.66                               | 4.81 K                                 | 137.13                 |
 | The Voice Kids       | 10,400,000   | 1,663        | 3.52                    | 2.12                               | 6.25 K                                 | 338.65                 |
 
-## Recommendations
+## Recommendations Overview:
 
-Based on the analysis, the following recommendations were made:
+1. **Kinder Spielzeug Kanal** is the **top recommendation** for marketing campaigns due to its impressive reach and impact. With high total views, average views per video, and views per subscription, it stands out as the ideal channel for broad, high-visibility campaigns.
+   
+2. **Dhruv Rathee** is the **best choice** for campaigns that prioritize engagement. His channel offers a strong engagement rate, making it a great fit for brands looking to foster deeper interactions with viewers.
 
-- **Best Overall Channel**: **Kinder Spielzeug Kanal**
-  - **Strengths**: Highest total views, highest average views per video, and highest views per subscription. Ideal for broad marketing campaigns due to its extensive reach.
+3. **Ice Cream Rolls** is recommended for brands looking to leverage **high content volume**, as it produces a large number of videos. It’s ideal for frequent marketing exposure.
 
-- **Best Channel for Engagement**: **Dhruv Rathee**
-  - **Strengths**: Highest subscription engagement rate per video, indicating high interaction levels. Suitable for campaigns targeting an engaged audience.
-
-- **Best for Content Volume**: **Ice Cream Rolls**
-  - **Strengths**: Largest number of total videos, providing frequent content exposure. Useful for campaigns requiring high content volume.
-
-- **Best Balance of Metrics**: **The Voice Kids**
-  - **Strengths**: Good views per subscription and average views per video, providing a balanced mix of reach and engagement.
-
-## Conclusion
-
-**Kinder Spielzeug Kanal** is recommended as the best choice for a marketing campaign due to its high reach and impact. **Dhruv Rathee** is recommended for campaigns focusing on engagement, while **Ice Cream Rolls** is ideal for content volume. **The Voice Kids** offers a balanced mix of reach and engagement.
-
-For any further analysis or to customize the recommendation based on specific needs, additional data and metrics can be considered.
+4. **The Voice Kids** offers a **balanced option**, combining both substantial reach and good engagement, making it suitable for brands seeking a mix of both factors.
 
 ---
 
+### Detailed Recommendations:
+
+- **Best Overall Choice – Kinder Spielzeug Kanal**:  
+   With 27.8M subscribers, 14.36 billion views, and an average of 11.9M views per video, Kinder Spielzeug Kanal offers the broadest audience and highest visibility. Its high engagement metrics make it the ideal choice for campaigns seeking to maximize reach and impact across a large audience.
+
+- **Engagement Focus – Dhruv Rathee**:  
+   Dhruv Rathee, with 24.8M subscribers, excels in engaging his audience, boasting a 38.93K subscription engagement rate per video. For campaigns that aim to foster a more interactive relationship with viewers, this channel is a top pick due to its ability to drive higher engagement per video.
+
+- **Content Volume Strategy – Ice Cream Rolls**:  
+   With over 2,556 videos, Ice Cream Rolls is perfect for brands seeking frequent exposure. While its average views per video are lower (660K), its sheer volume of content provides ongoing visibility and opportunities for continuous marketing.
+
+- **Balanced Approach – The Voice Kids**:  
+   Offering a blend of solid reach and good engagement, The Voice Kids serves as a balanced choice for campaigns that need both a broad audience and meaningful viewer interactions.
+
+---
+
+### Conclusion:
+For brands aiming to maximize reach and visibility, **Kinder Spielzeug Kanal** is the best overall choice. For more engagement-driven campaigns, **Dhruv Rathee** offers strong viewer interaction, while **Ice Cream Rolls** caters to those looking for frequent content exposure. **The Voice Kids** is a versatile option, balancing both engagement and reach.
