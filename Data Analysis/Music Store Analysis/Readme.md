@@ -70,10 +70,6 @@ The project addresses the following questions:
 - What is the relationship between album sales and track popularity?
 - How does the number of albums released by an artist correlate with total sales?
 
-### Employee Performance Analysis
-- Which employees handle the highest volume of customer invoices?
-- What is the average invoice amount managed by each employee?
-
 ### Playlist Insights
 - Which playlists are most popular based on the number of tracks?
 - What is the average length of playlists in terms of total track duration?
